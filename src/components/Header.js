@@ -1,10 +1,10 @@
 import React from "react";
 
-function Header ({blogName}){
-    // console.log('This is the blogname:', blogName)      
+function Header ({name}){
+    console.log('This is the blogname:', name)      
     return (
         <header>
-          <h1>{blogName}</h1>
+          <h1>{name}</h1>
         </header>
     );
 
